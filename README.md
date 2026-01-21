@@ -1,41 +1,31 @@
-Clean Architecture com .NET 10
+# .NET Clean Architecture
 
-Este projeto demonstra uma implementação prática de Clean Architecture utilizando .NET 10, criada via CLI, desenvolvida no VS Code e executada no Ubuntu/Linux.
+Projeto demonstrativo de **Clean Architecture** em **.NET 10**, feito com foco em **organização de código**, **baixo acoplamento** e **facilidade de evolução**.  
+Criado utilizando **CLI do .NET**, desenvolvido no **VS Code** e testado em ambiente **Linux (Ubuntu)**.
 
-O objetivo é servir como referência arquitetural, focando em organização de código, baixo acoplamento e facilidade de evolução, sem depender de IDE específica.
+---
 
-Arquitetura Utilizada
+## 🏗️ Arquitetura
 
-Clean Architecture organiza o sistema em camadas bem definidas, onde:
+A arquitetura segue os princípios da **Clean Architecture**, onde:
 
-As regras de negócio ficam isoladas
+- As regras de negócio ficam isoladas no domínio
+- Dependências sempre apontam para dentro
+- Frameworks, banco de dados e infraestrutura são detalhes
+- A aplicação é facilmente testável e extensível
 
-As dependências apontam sempre para o domínio
+  
+---
 
-Frameworks e detalhes de infraestrutura são secundários
+## 📦 Tecnologias Utilizadas
 
-Camadas
+- **.NET 10**
+- **C#**
+- **ASP.NET Core Web API**
+- **CLI do .NET**
+- **VS Code**
+- **Linux (Ubuntu)**
 
-Arquitetura Utilizada
+---
 
-Clean Architecture organiza o sistema em camadas bem definidas, onde:
 
-As regras de negócio ficam isoladas
-
-As dependências apontam sempre para o domínio
-
-Frameworks e detalhes de infraestrutura são secundários
-
-Tecnologias Utilizadas
-
-.NET 10
-
-C#
-
-ASP.NET Core Web API
-
-VS Code
-
-Ubuntu/Linux
-
-CLI do .NET
